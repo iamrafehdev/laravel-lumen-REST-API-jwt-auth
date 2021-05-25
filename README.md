@@ -25,5 +25,5 @@ $ php artisan jwt:secret
 $ php artisan migrate
 $ php artisan tinker
 $ factory(App\User::class, 10)->create()
-$ factory(App\Task::class, 50)->create()
+$ factory(App\Post::class, 50)->create()
 ```
